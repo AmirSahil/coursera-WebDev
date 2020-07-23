@@ -12,11 +12,19 @@ body{
    border-radius: 0;
    background-color: rgb(90, 90, 90);
 }
+#header-container{
+   height: 0 auto;
+}
+.navbar-brand{
+   height: auto;
+}
 .navbar-brand a h1{
    color: white;
    margin: 0;
    font-size: 1.2em;
    font-weight: bold;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
 
 #collapsable-nav{
@@ -41,6 +49,7 @@ body{
 
 /** MAIN CONTENT **/
 .menu-title{
+   margin-top: 35px;
    margin-bottom: 20px;
 }
 .menu-tile-chicken, .menu-tile-beef, .menu-tile-sushi{
@@ -48,6 +57,9 @@ body{
    padding: 25px;
    margin: 20px 10px;
 }
-
+#chicken h3, #beef h3, #sushi h3{
+   margin: 0px 0px 20px 0px;
+   font-weight: 700;
+}
 
 /** MAIN CONTENT END **/
